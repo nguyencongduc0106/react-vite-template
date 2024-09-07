@@ -1,12 +1,12 @@
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 
-import { FailedQueueAxios } from '@src/types'
+import { FailedQueueAxios } from '@types'
 import {
   getAccessToken,
   getRefreshToken,
   setAccessToken,
   setRefreshToken,
-} from '@src/utils/local-storage'
+} from '@utils/local-storage'
 import axios from 'axios'
 
 const headers = {
