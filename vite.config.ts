@@ -9,6 +9,10 @@ import tailwindcss from 'tailwindcss'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), TanStackRouterVite()],
+  server: {
+    port: 3000,
+    strictPort: false,
+  },
   css: {
     postcss: {
       plugins: [tailwindcss],
