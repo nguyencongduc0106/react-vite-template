@@ -10,9 +10,5 @@ export const Route = createRootRouteWithContext<RouteContext>()({
 })
 
 function RootComponent() {
-  return (
-    <>
-      <Outlet />
-    </>
-  )
+  return <Outlet />
 }
